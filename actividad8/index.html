@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caja de Comentarios</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Caja de Comentarios</h1>
+    </header>
+
+    <main>
+        <form id="form-comentarios">
+            <div class="campo">
+                <label for="comentario">Deja tu comentario:</label>
+                <textarea id="comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+            </div>
+        <input type="submit" value="Enviar">
+        <button type="button">Eliminar comentarios</button>
+        </form>
+
+        <section>
+            <h2>Comentarios recientes</h2>
+            <div id="comentariosRecientes"></div>
+        </section>
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
